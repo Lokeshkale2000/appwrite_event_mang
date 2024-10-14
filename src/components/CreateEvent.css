@@ -1,0 +1,71 @@
+.create-event-container {
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background:  #89d5df;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.create-event-container h2 {
+    margin-bottom: 1.5rem;
+}
+
+.create-event-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-event-container input,
+.create-event-container textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: whitesmoke;
+    width: 100%;
+}
+
+.create-event-container button {
+    padding: 0.5rem;
+    background: #26703d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-event-container button:hover {
+    background: #0f5322;
+}
+
+@media (max-width: 768px) {
+    .create-event-container {
+        padding: 1.5rem;
+        margin: 2rem auto;
+    }
+
+    .create-event-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .create-event-container {
+        margin: 1.5rem auto;
+    }
+
+    .create-event-container h2 {
+        font-size: 1.25rem;
+    }
+
+    .create-event-container input,
+    .create-event-container textarea {
+        padding: 0.4rem;
+    }
+
+    .create-event-container button {
+        padding: 0.4rem;
+    }
+}

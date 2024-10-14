@@ -1,0 +1,71 @@
+.edit-event-container {
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #89d5df;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.edit-event-container h2 {
+    margin-bottom: 1.5rem;
+}
+
+.edit-event-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-event-container input,
+.edit-event-container textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: whitesmoke;
+    width: 100%;
+}
+
+.edit-event-container button {
+    padding: 0.5rem;
+    background: #26703d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-event-container button:hover {
+    background: #0f5322;
+}
+
+@media (max-width: 768px) {
+    .edit-event-container {
+        padding: 1.5rem;
+        margin: 2rem auto;
+    }
+
+    .edit-event-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .edit-event-container {
+        margin: 1.5rem auto;
+    }
+
+    .edit-event-container h2 {
+        font-size: 1.25rem;
+    }
+
+    .edit-event-container input,
+    .edit-event-container textarea {
+        padding: 0.4rem;
+    }
+
+    .edit-event-container button {
+        padding: 0.4rem;
+    }
+}
