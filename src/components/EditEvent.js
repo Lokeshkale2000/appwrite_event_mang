@@ -76,7 +76,7 @@ const EditEvent = () => {
         <div className="edit-event-container">
             <h2>Edit Event</h2>
             <form onSubmit={handleSubmit}>
-                <h3>To : {eventData.name}</h3>
+                <h3>Event: {eventData.name}</h3>
                 <textarea
                     name="description"
                     value={eventData.description}

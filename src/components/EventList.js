@@ -62,7 +62,7 @@ const EventList = () => {
         {events.length > 0 ? (
           events.map((event) => (
             <li key={event.$id} className="event-item">
-              <h3>To:- {event.name}</h3>
+              <h3>Event:- {event.name}</h3>
               <p><strong>Description:</strong> {event.description}</p>
               <p><strong>Organizer:</strong> {event.organizer}</p>
               <p><strong>Intended:</strong> {event.category}</p>
